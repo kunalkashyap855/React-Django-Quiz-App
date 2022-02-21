@@ -28,6 +28,12 @@
   flex-grow: 1;
 }
 
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  text-decoration: underline;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -67,9 +73,10 @@
 
 .grid {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   max-width: 800px;
 }
 
@@ -103,9 +110,39 @@
   line-height: 1.5;
 }
 
+.startButton {
+  color: #0070f3;
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.submitBtn {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.scoreContainer h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.scoreContainer p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.score {
+  color: #0070f3;
+  font-size: 8rem;
+  text-align: center;
+}
+
+.total {
+  color: var(--nextui-colors-gray800);
+  font-size: 5rem;
 }
 
 @media (max-width: 600px) {
