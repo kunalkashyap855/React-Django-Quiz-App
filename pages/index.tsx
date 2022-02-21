@@ -168,7 +168,7 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <a
-          href="https://github.com/kunalkashyap855"
+          href="https://github.com/kunalkashyap855/React-Django-Quiz-App"
           target="_blank"
           rel="noopener noreferrer"
         >
