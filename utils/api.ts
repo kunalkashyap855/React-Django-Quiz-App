@@ -1,11 +1,7 @@
-const ENVIRONMENT_STAGE = "production";
-// const ENVIRONMENT_STAGE = "development";
-export const SERVER =
-ENVIRONMENT_STAGE === "development"
-    ? "http://localhost:8000/"
-    : "https://kunalkashyap.pythonanywhere.com/";
+export const PROD_SERVER = "https://kunalkashyap.pythonanywhere.com/"
+export const DEV_SERVER = "http://localhost:8000/"
 
 export const toAPIURL = (pathname: string) =>
-  `${SERVER}${
+  `${PROD_SERVER}${
     pathname.startsWith("/") ? pathname.substring(1, pathname.length) : pathname
   }`;
