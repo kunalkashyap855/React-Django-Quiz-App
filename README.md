@@ -1,9 +1,6 @@
 # React-Django-Quiz-App
 A simple quiz taking web application developed using Next.js (React) and Django. The quiz consists of 6 random trivia questions with 4 options to choose from in each question. After answering all the questions, the user can see their score and review their performance on each question.
 
-## Live Demo
-Check out the app and play the quiz yourself [here](https://react-django-quiz-app.vercel.app/ "React Django Quiz App").
-
 
 ## Table of Contents
 - [The Problem](#the-problem)
